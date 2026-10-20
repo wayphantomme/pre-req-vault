@@ -67,7 +67,7 @@ impl<'info> Withdraw<'info> {
         };
 
         let cpi_ctx = CpiContext::new(
-            self.application_program.to_account_info(),
+            self.application_program.to_account_info().key(),
             cpi_accounts,
         );
 

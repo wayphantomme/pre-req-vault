@@ -1,7 +1,6 @@
 skip_local_validator = true
 
 [toolchain]
-cargo_build_sbf_args = ["--arch", "v0"]
 
 [features]
 resolution = true
